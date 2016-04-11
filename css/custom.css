@@ -1,0 +1,129 @@
+.header{
+	height: 200px;
+	position: absolute;
+	-vendor-animation-delay: 1s;
+	-vendor-animation-duration: 3s;
+}
+
+#content-home{
+	-vendor-animation-delay: 2s;
+	-vendor-animation-duration: 3s;
+}
+
+.header-content{
+background: #9E9E9E none repeat scroll 0% 0%;
+min-height: 75px;
+float: right;
+width: 100%;
+}
+.info-header{
+    float: right;
+    width: 40%;
+    margin-top: 25px;
+}
+.input-header, .input-header-bottom{
+border-radius: 10px;
+border: medium none;
+margin-top: 15px;
+width: 80%;
+}
+.input-header-bottom{
+width: 100% !important;
+}
+body{
+  background: #E3E3E3; /* For browsers that do not support gradients */
+  /*background: -webkit-radial-gradient(circle, #fff,#E3E3E3); /* Safari */*/
+  /*background: -o-radial-gradient(circle, #fff,#E3E3E3); /* Opera 11.6 to 12.0 */*/
+  background: -moz-radial-gradient(circle,#fff 5%,rgb(219, 219, 219) 50%); /* Firefox 3.6 to 15 */
+  background: radial-gradient(circle,#fff 5%,rgb(219, 219, 219) 50%); /* Standard syntax */
+}
+.content-custom{
+	margin-top: 170px;
+}
+.menu-home{
+text-decoration: none;
+list-style: none;
+padding: 0px;
+width: 70%;
+transition: all 0.3 ease;
+}
+
+.menu-home li{
+  font-family: 'Tangerine', serif;
+  font-size: 50px;
+  float: left;
+  width: 300px;
+border-radius: 40px;
+margin-bottom: 10px;
+color: #fff;
+    border-bottom: 4px solid rgba(0, 0, 0, 0.17);
+font-size: 1.5em;
+  /*Set our animation play state to paused initially */
+}
+
+.menu-home li:hover{
+	opacity: 0.7;
+	/*background: blue !important;*/
+	transition: opacity 0.1s ease-in;
+
+}
+
+.bg-red{
+	background: #F36D4A;
+}
+.bg-tosca{
+	background: #75E1B7;
+}
+.bg-navy{
+	background: #6A818F;
+}
+.icon-menu{
+	margin-right: 10px;
+}
+
+.shadow-bottom{
+  box-shadow: 0 4px 2px -2px gray;
+}
+
+.box-video{
+  margin-right: 100px;
+}
+
+.menu-top{
+  margin: right;
+  padding: 0px;
+  list-style: none;
+}
+
+.menu-top a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2em;
+}
+
+.menu-top a li{
+    display: inline;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px 5px 5px 5px;
+    border-bottom: 4px solid rgba(0, 0, 0, 0.13);
+    /* margin-right: 5px; */
+}
+
+
+
+.left-menu{
+      float: left;
+    margin: 5px;
+    height: 40px;
+    width: 40px;
+}
+.right-menu{
+float: left;
+    width: 200px;
+    margin-top: 10px;
+}
+.papercraft{
+  margin-top:-250px !important;
+  background: none !important;
+}
